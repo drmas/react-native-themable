@@ -3,10 +3,12 @@
   "version": "0.0.5",
   "description": "React Native JS library to allow theming of UI using stylenames, similar to web",
   "main": "index.js",
-  "licenses": "MIT",
+  "license": "MIT",
   "repository": "https://github.com/drmas/react-native-themable",
   "scripts": {
-    "build": "babel ./src --out-dir ./dist",
+    "clean": "rm -rf dist",
+    "copyfiles": "cp -r package.json dist/package.json && cp -r LICENSE dist/LICENSE",
+    "build": "yarn clean && babel ./src --out-dir ./dist && yarn copyfiles",
     "test": "mocha --recursive --require babel-core/register",
     "test:watch": "yarn test -- --watch"
   },
@@ -22,7 +24,6 @@
     "react-native": "*"
   },
   "author": "",
-  "license": "",
   "devDependencies": {
     "sinon": "^4.5.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
