@@ -1,4 +1,4 @@
-import { isFunction } from 'lodash'
+import { isFunction } from './utils'
 
 class ThemeProvider {
   constructor () {

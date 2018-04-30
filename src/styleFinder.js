@@ -1,5 +1,4 @@
-import { getDisplayName } from './utils'
-import { get, isFunction } from 'lodash'
+import { getDisplayName, isFunction, get } from './utils'
 
 export default class StyleFinder {
   constructor (theme) {

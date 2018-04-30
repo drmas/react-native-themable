@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View as RNView } from 'react-native'
-import { ThemeProvider, WithTheme } from 'react-themable'
+import { ThemeProvider, WithTheme } from 'react-native-themable'
 
 const View = WithTheme(RNView)
 

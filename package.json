@@ -1,6 +1,6 @@
 {
   "name": "react-native-themable",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React Native JS library to allow theming of UI using stylenames, similar to web",
   "main": "index.js",
   "licenses": "MIT",
@@ -16,10 +16,7 @@
     "theme",
     "themable"
   ],
-  "dependencies": {
-    "lodash": "^4.17.10",
-    "sinon": "^4.5.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
@@ -27,6 +24,7 @@
   "author": "",
   "license": "",
   "devDependencies": {
+    "sinon": "^4.5.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
