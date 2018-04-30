@@ -1,19 +1,21 @@
 
-# react-themable
+# react-native-themable
+
+### React Native JS library to allow theming of UI using stylenames, similar to web
 
 ## Getting started
 
-`$ npm install react-themable --save`
+`$ npm install react-native-themable --save`
 
 or
 
-`yarn add react-themable`
+`yarn add react-native-themable`
 
 ## Example
 ```javascript
 import React from 'react'
 import { StyleSheet, Text, View as RNView } from 'react-native'
-import { ThemeProvider, WithTheme } from 'react-themable'
+import { ThemeProvider, WithTheme } from 'react-native-themable'
 
 // extend React Native View to support theming
 const View = WithTheme(RNView)
@@ -100,11 +102,11 @@ Use to set the current theme, or change it at any time, it has the following api
 
 High order component that allow the component to listen to theme changes, as well as apply theme styles to all its direct children.
 
-Usually you will need it to decorate the React Native View, or React div component
+Usually you will need it to decorate the React Native View or any container
 
 ```
 import { View as RNView } from 'react-native'
-import { WithTheme } from 'react-themable'
+import { WithTheme } from 'react-native-themable'
 
 // extend React Native View to support theming
 const View = WithTheme(RNView)
