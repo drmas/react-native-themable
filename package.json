@@ -1,8 +1,9 @@
 {
   "name": "react-native-themable",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "React Native JS library to allow theming of UI using stylenames, similar to web",
   "main": "index.js",
+  "licenses": "MIT",
   "scripts": {
     "build": "babel ./src --out-dir ./dist",
     "test": "mocha --recursive --require babel-core/register",
