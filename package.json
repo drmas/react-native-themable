@@ -4,6 +4,7 @@
   "description": "React Native JS library to allow theming of UI using stylenames, similar to web",
   "main": "index.js",
   "licenses": "MIT",
+  "repository": "https://github.com/drmas/react-native-themable",
   "scripts": {
     "build": "babel ./src --out-dir ./dist",
     "test": "mocha --recursive --require babel-core/register",
